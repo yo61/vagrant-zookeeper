@@ -1,0 +1,9 @@
+---
+:hierarchy:
+  - "%{::certname}"
+  - "roles/%{::role}"
+  - common
+:backends:
+  - yaml
+:yaml:
+  :datadir: '/vagrant/puppet/hieradata'

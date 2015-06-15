@@ -1,0 +1,12 @@
+---
+classes:
+  - timezone
+  - epel
+
+timezone::region: Europe
+timezone::locality: London
+
+zk_servers:
+  - 10.10.10.101
+  - 10.10.10.102
+  - 10.10.10.103

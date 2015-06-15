@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+forge "https://forgeapi.puppetlabs.com"
+
+mod 'stahnma/epel'
+mod 'bashtoni/timezone'
+
+mod 'puppetlabs-java'
+mod 'deric-zookeeper'
